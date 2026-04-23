@@ -28,7 +28,38 @@ OBJETOS = {
     "vidrio":{
         "reciclable": True,
         "tiempo_descomposicion": "1 million de años"
-    }
+    },
+    "lata de aluminio":{
+        "reciclable": True,
+        "tiempo_descomposicion": "200 años"
+    },
+    "papel":{
+        "reciclable": True,
+        "tiempo_descomposicion": "2-6 semanas"
+    },
+    "pilas":{
+        "reciclable": False,
+        "tiempo_descomposicion": "500-1000 años",
+        "manualidad": "Llevarlas a puntos de recolección especiales, no tirarlas a la basura"
+    },
+    "ropa de algodon":{
+        "reciclable": True,
+        "tiempo_descomposicion": "1-5 meses",
+    },
+    "madera":{
+        "reciclable": True,
+        "tiempo_descomposicion": "1-3 años"
+    },
+    "neumatico":{
+        "reciclable": False,
+        "tiempo_descomposicion": "600-800 años",
+        "manualidad": "Se puede usar como maceta o columpio"
+    },
+    "esponja de cocina":{
+        "reciclable": False,
+        "tiempo_descomposicion": "200 años",
+        "manualidad": "Puedes reutilizarla para limpiar superficies o zapatos"
+}
 }
 
 def evaluar_objeto(nombre_objeto):  
